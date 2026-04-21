@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tsl:TrustServiceStatusList xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+	xmlns:tsl="http://uri.etsi.org/02231/v2#" Id="tsl-6fe19749-fa3f-48bc-bc14-8bbff8da7356"
+	TSLTag="http://uri.etsi.org/02231/TSLTag">
+	<tsl:SchemeInformation>
+		<tsl:TSLVersionIdentifier>3</tsl:TSLVersionIdentifier>
+		<tsl:TSLSequenceNumber>25</tsl:TSLSequenceNumber>
+		<tsl:TSLType>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/TSLType/generic</tsl:TSLType>
+		<tsl:SchemeOperatorName>
+			<tsl:Name xml:lang="es">INSTITUTO NACIONAL DE DEFENSA DE LA COMPETENCIA Y DE LA PROTECCIÓN DE
+				LA PROPIEDAD INTELECTUAL - INDECOPI</tsl:Name>
+			<tsl:Name xml:lang="en">NATIONAL INSTITUTE FOR THE DEFENSE OF COMPETITION AND PROTECTION OF
+				INTELLECTUAL PROPERTY</tsl:Name>
+		</tsl:SchemeOperatorName>
+		<tsl:SchemeOperatorAddress>
+			<tsl:PostalAddresses>
+				<tsl:PostalAddress xml:lang="es">
+					<tsl:StreetAddress>CALLE DE LA PROSA 104</tsl:StreetAddress>
+					<tsl:Locality>SAN BORJA</tsl:Locality>
+					<tsl:StateOrProvince>LIMA</tsl:StateOrProvince>
+					<tsl:PostalCode>LIMA 41</tsl:PostalCode>
+					<tsl:CountryName>PE</tsl:CountryName>
+				</tsl:PostalAddress>
+				<tsl:PostalAddress xml:lang="en">
+					<tsl:StreetAddress>CALLE DE LA PROSA 104</tsl:StreetAddress>
+					<tsl:Locality>SAN BORJA</tsl:Locality>
+					<tsl:StateOrProvince>LIMA</tsl:StateOrProvince>
+					<tsl:PostalCode>LIMA 41</tsl:PostalCode>
+					<tsl:CountryName>PE</tsl:CountryName>
+				</tsl:PostalAddress>
+			</tsl:PostalAddresses>
+			<tsl:ElectronicAddress>
+				<tsl:URI>http://iofe.indecopi.gob.pe</tsl:URI>
+				<tsl:URI>mailto:iofe_sgaac@indecopi.gob.pe</tsl:URI>
+			</tsl:ElectronicAddress>
+		</tsl:SchemeOperatorAddress>
+		<tsl:SchemeName>
+			<tsl:Name xml:lang="es">PE:Registro Oficial de Prestadores de Servicios de Certificación
+				Digital bajo la Infraestructura Oficial de Firma Electrónica de acuerdo a la LEY N° 27269</tsl:Name>
+			<tsl:Name xml:lang="en">PE:Digital Certificate Services Providers Official register under the
+				Official Framework Electronic Signatures in compliance with law N° 27269</tsl:Name>
+		</tsl:SchemeName>
+		<tsl:SchemeInformationURI>
+			<tsl:URI xml:lang="es">http://www.iofe.gob.pe/</tsl:URI>
+			<tsl:URI xml:lang="en">http://www.iofe.gob.pe/en/</tsl:URI>
+		</tsl:SchemeInformationURI>
+		<tsl:StatusDeterminationApproach>
+			http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/StatusDetn/appropriate</tsl:StatusDeterminationApproach>
+		<tsl:SchemeTypeCommunityRules>
+			<tsl:URI>http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/common</tsl:URI>
+		</tsl:SchemeTypeCommunityRules>
+		<tsl:SchemeTerritory>PE</tsl:SchemeTerritory>
+		<tsl:PolicyOrLegalNotice>
+			<tsl:TSLLegalNotice xml:lang="es">El marco legal aplicado a la presente implementación del
+				ROPS es la Ley N°27269, Ley de Firmas y Certificados Digitales y su Reglamento, aprobado por
+				el Decreto Supremo 052-2008-PCM y modificado por el Decreto Supremo 070-2011-PCM, y las
+				Guias de Acreditacion.</tsl:TSLLegalNotice>
+			<tsl:TSLLegalNotice xml:lang="en">The applicable legal framework for the present ROPS
+				implementation of the Trusted List is the law N°27269, law of Digital Signatures and
+				Certificates and its Regulations (Supreme Decree 052-2008) and ammended by Supreme Decree
+				070-2011-PCM, and the Accreditation Guidelines.</tsl:TSLLegalNotice>
+		</tsl:PolicyOrLegalNotice>
+		<tsl:HistoricalInformationPeriod>3653</tsl:HistoricalInformationPeriod>
+		<tsl:ListIssueDateTime>2026-01-01T00:00:00.000Z</tsl:ListIssueDateTime>
+		<tsl:NextUpdate>
+			<tsl:dateTime>2027-01-01T00:00:00.000Z</tsl:dateTime>
+		</tsl:NextUpdate>
+		<tsl:DistributionPoints>
+			<tsl:URI>https://nodoyuna4.github.io/pki/tsl/tsl2026.xml</tsl:URI>
+		</tsl:DistributionPoints>
+	</tsl:SchemeInformation>
+	<tsl:TrustServiceProviderList>
+		<tsl:TrustServiceProvider>
+			<tsl:TSPInformation>
+				<tsl:TSPName>
+					<tsl:Name xml:lang="en">REGISTRO NACIONAL DE IDENTIDAD</tsl:Name>
+				</tsl:TSPName>
+				<tsl:TSPTradeName>
+					<tsl:Name xml:lang="en">RENIEC/PERU</tsl:Name>
+				</tsl:TSPTradeName>
+				<tsl:TSPAddress>
+					<tsl:PostalAddresses>
+						<tsl:PostalAddress xml:lang="es">
+							<tsl:StreetAddress>JR.BOLIVIA 109 CENTRO CIVICO CDO DE LIMA</tsl:StreetAddress>
+							<tsl:Locality>LIMA</tsl:Locality>
+							<tsl:StateOrProvince>LIMA</tsl:StateOrProvince>
+							<tsl:PostalCode>LIMA01</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+						<tsl:PostalAddress xml:lang="en">
+							<tsl:StreetAddress>JR.BOLIVIA 109 CENTRO CIVICO CDO DE LIMA</tsl:StreetAddress>
+							<tsl:Locality>LIMA</tsl:Locality>
+							<tsl:StateOrProvince>LIMA</tsl:StateOrProvince>
+							<tsl:PostalCode>LIMA01</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+					</tsl:PostalAddresses>
+					<tsl:ElectronicAddress>
+						<tsl:URI>HTTPS://WWW.RENIEC.GOB.PE/</tsl:URI>
+						<tsl:URI>IDENTIDADDIGITAL@RENIEC.GOB.PE</tsl:URI>
+					</tsl:ElectronicAddress>
+				</tsl:TSPAddress>
+				<tsl:TSPInformationURI>
+					<tsl:URI xml:lang="en">HTTPS://WWW.RENIEC.GOB.PE/</tsl:URI>
+				</tsl:TSPInformationURI>
+			</tsl:TSPInformation>
+			<tsl:TSPServices>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">DIGITAL CERTIFICATES ISSUED BY THE ECEP USING THE ECERNEP PERU
+								CA ROOT 3 HIERARCHY</tsl:Name>
+							<tsl:Name xml:lang="es">CERTIFICADOS DIGITALES EMITIDOS POR ECEP BAJO LA JERARQUÍA
+								ECERNEP PERU CA ROOT 3</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>
+									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</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=ECERNEP PERU CA ROOT 3, O=Entidad de Certificación Nacional
+									para el Estado Peruano, C=PE</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>SCtrcElHSFNNVUsxM2YxU0lyN2REcy95UjRjPQ==</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>
+							http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2018-01-18T23:37:44.000Z</tsl:StatusStartingTime>
+					</tsl:ServiceInformation>
+					<tsl:ServiceHistory />
+				</tsl:TSPService>
+			</tsl:TSPServices>
+		</tsl:TrustServiceProvider>
+		<tsl:TrustServiceProvider>
+			<tsl:TSPInformation>
+				<tsl:TSPName>
+					<tsl:Name xml:lang="en">PRESIDENCIA DEL CONSEJO DE MINISTROS</tsl:Name>
+				</tsl:TSPName>
+				<tsl:TSPTradeName>
+					<tsl:Name xml:lang="en">PCM</tsl:Name>
+				</tsl:TSPTradeName>
+				<tsl:TSPAddress>
+					<tsl:PostalAddresses>
+						<tsl:PostalAddress xml:lang="es">
+							<tsl:StreetAddress>JIRÓN CARABAYA CUADRA 1 LIMA</tsl:StreetAddress>
+							<tsl:Locality>LIMA</tsl:Locality>
+							<tsl:StateOrProvince>LIMA</tsl:StateOrProvince>
+							<tsl:PostalCode>LIMA 01</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+						<tsl:PostalAddress xml:lang="en">
+							<tsl:StreetAddress>JIRÓN CARABAYA CUADRA 1 LIMA</tsl:StreetAddress>
+							<tsl:Locality>LIMA</tsl:Locality>
+							<tsl:StateOrProvince>LIMA</tsl:StateOrProvince>
+							<tsl:PostalCode>LIMA 01</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+					</tsl:PostalAddresses>
+					<tsl:ElectronicAddress>
+						<tsl:URI>HTTPS://WWW.GOB.PE/ECERNEP/</tsl:URI>
+						<tsl:URI>ECERNEP@PCM.GOB.PE</tsl:URI>
+					</tsl:ElectronicAddress>
+				</tsl:TSPAddress>
+				<tsl:TSPInformationURI>
+					<tsl:URI xml:lang="en">HTTPS://WWW.GOB.PE/ECERNEP/</tsl:URI>
+				</tsl:TSPInformationURI>
+			</tsl:TSPInformation>
+			<tsl:TSPServices>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">ECERNEP PERU CA ROOT 6</tsl:Name>
+							<tsl:Name xml:lang="es">ECERNEP PERÚ CA ROOT 6</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>
+									MIIDOzCCApygAwIBAgIUQOC9FOlW2bWTFjxBJlUSKivlzAwwCgYIKoZIzj0EAwQwcjELMAkGA1UEBhMCUEUxQjBABgNVBAoMOUVudGlkYWQgZGUgQ2VydGlmaWNhY2nDs24gTmFjaW9uYWwgcGFyYSBlbCBFc3RhZG8gUGVydWFubzEfMB0GA1UEAwwWRUNFUk5FUCBQRVJVIENBIFJPT1QgNjAeFw0yMjA5MDkwNTMyNTVaFw00NzA5MDMwNTMyNTRaMHIxCzAJBgNVBAYTAlBFMUIwQAYDVQQKDDlFbnRpZGFkIGRlIENlcnRpZmljYWNpw7NuIE5hY2lvbmFsIHBhcmEgZWwgRXN0YWRvIFBlcnVhbm8xHzAdBgNVBAMMFkVDRVJORVAgUEVSVSBDQSBST09UIDYwgZswEAYHKoZIzj0CAQYFK4EEACMDgYYABAHdVVvwAsfsHci+9ZqBoz1H6Lf0AyzfqriF3jmScln/l4VveZj8DbAMTpEcF4VkR3UUAN8J5yfu1fOAAOYYtP2nPwFITTdBxY0A8/h+wwLPbcQBNF2ovFwPUyq7/5e4KhvNODdITibno3IseknqyVOluLYopaACGhcdObiyWpKIcyqjQaOBzDCByTASBgNVHRMBAf8ECDAGAQH/AgECMB8GA1UdIwQYMBaAFItj7cufNf7dVXPdLpVi/T9rgG8pMFAGCCsGAQUFBwEBBEQwQjBABggrBgEFBQcwAoY0aHR0cDovL2Nkbi53d3cuZ29iLnBlL2VjZXJuZXAvcm9vdDYvY3J0L2VjZXJuZXA2LmNydDARBgNVHSAECjAIMAYGBFUdIAAwHQYDVR0OBBYEFItj7cufNf7dVXPdLpVi/T9rgG8pMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDBAOBjAAwgYgCQgEQOKfG1lBB78Uf0wJHYO+vsFB+39oS7Ku3I2NsbR4+5v+ChnGlNQcAN+5KNo9wummcifCyHypl8xyGZ3lGldxNdAJCAZfPViVg/u34K0qlveGVvXTgtioky22aPjODPidFPfMG3qPTMzWAAbspGu5/1Ro2/Td902ns0CjjdBwxoTCd1Ea+</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=ECERNEP PERU CA ROOT 6, O=Entidad de Certificación Nacional
+									para el Estado Peruano, C=PE</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>aTJQdHk1ODEvdDFWYzkwdWxXTDlQMnVBYnlrPQ==</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>
+							http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2025-03-11T17:12:47.000Z</tsl:StatusStartingTime>
+					</tsl:ServiceInformation>
+					<tsl:ServiceHistory />
+				</tsl:TSPService>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">AC ROOT 5 OF THE SECRETARIA DE GOBIERNO Y TRANSFORMACION
+								DIGITAL</tsl:Name>
+							<tsl:Name xml:lang="es">EC RAIZ 5 DE LA SECRETARIA DE GOBIERNO Y TRANSFORMACION
+								DIGITAL</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>
+									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</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=ECERNEP PERU CA ROOT 5, O=Entidad de Certificación Nacional
+									para el Estado Peruano, C=PE</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>UCs3R21NSHZoQm9JZnI1bFZhb0FIcFhnUGljPQ==</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>
+							http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2022-08-11T15:55:04.000Z</tsl:StatusStartingTime>
+					</tsl:ServiceInformation>
+					<tsl:ServiceHistory />
+				</tsl:TSPService>
+			</tsl:TSPServices>
+		</tsl:TrustServiceProvider>
+		<tsl:TrustServiceProvider>
+			<tsl:TSPInformation>
+				<tsl:TSPName>
+					<tsl:Name xml:lang="en">AUTORIDAD DE CERTIFICACIÓN DE PRUEBAS</tsl:Name>
+				</tsl:TSPName>
+				<tsl:TSPTradeName>
+					<tsl:Name xml:lang="en">TEST/PERU</tsl:Name>
+				</tsl:TSPTradeName>
+				<tsl:TSPAddress>
+					<tsl:PostalAddresses>
+						<tsl:PostalAddress xml:lang="es">
+							<tsl:StreetAddress>LIMA 1, LIMA</tsl:StreetAddress>
+							<tsl:Locality>LIMA</tsl:Locality>
+							<tsl:StateOrProvince>LIMA</tsl:StateOrProvince>
+							<tsl:PostalCode>LIMA01</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+						<tsl:PostalAddress xml:lang="en">
+							<tsl:StreetAddress>LIMA</tsl:StreetAddress>
+							<tsl:Locality>LIMA</tsl:Locality>
+							<tsl:StateOrProvince>LIMA</tsl:StateOrProvince>
+							<tsl:PostalCode>LIMA01</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+					</tsl:PostalAddresses>
+					<tsl:ElectronicAddress>
+						<tsl:URI>HTTPS://WWW.TEST.COM/</tsl:URI>
+						<tsl:URI>INFORMES@TEST.COM</tsl:URI>
+					</tsl:ElectronicAddress>
+				</tsl:TSPAddress>
+				<tsl:TSPInformationURI>
+					<tsl:URI xml:lang="en">HTTPS://WWW.TEST.COM/</tsl:URI>
+				</tsl:TSPInformationURI>
+			</tsl:TSPInformation>
+			<tsl:TSPServices>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">DIGITAL CERTIFICATES ISSUED BY THE EC USING THE EC RAIZ TEST
+								2026 HIERARCHY</tsl:Name>
+							<tsl:Name xml:lang="es">CERTIFICADOS DIGITALES EMITIDOS POR EC BAJO LA JERARQUÍA EC
+								RAIZ TEST 2026</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>
+									MIIFezCCA2OgAwIBAgIFICYAAAEwDQYJKoZIhvcNAQELBQAwXTELMAkGA1UEBhMCUEUxFjAUBgNVBAoMDVJvb3RDQSAtIFRlc3QxNjA0BgNVBAMMLUF1dG9yaWRhZCBkZSBDZXJ0aWZpY2FjacOzbiBSYcOteiAtIFRlc3QgMjAyNjAeFw0yMDAxMDEwMDAwMDBaFw0zMDEyMzEyMzU5NTlaMF0xCzAJBgNVBAYTAlBFMRYwFAYDVQQKDA1Sb290Q0EgLSBUZXN0MTYwNAYDVQQDDC1BdXRvcmlkYWQgZGUgQ2VydGlmaWNhY2nDs24gUmHDrXogLSBUZXN0IDIwMjYwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDKjFsAkgYX49JNxC0P9ZECm8cs5AVf0VZZR+Xm0Ixjl4DA6Qqk3gbphVfKihtYt3gHbuntbnPADdontcW9TmQR4TNPZ7c6HhRgXGClRKL9RwRbCcI2bwQXAIK+yg5BwjuQV7kR8Qg69pzh1cff2qnxwCbkjwNymgs1iW+njE/KpQd3/fsC6+vZtOiCCPoULVPf+fn8NtcCwrkypkCjKy4MP8qZhwaeRjw5KqU6qC9iM9/4yEUG8d4eRJiMC0Od5XCNANqdF+v++8qlbGFGn/cdV3yy/Wb99QsI14T/ZHdjae1p+fhbHSQjffMIsX7bO3XdUaggSbFFDcL4MM8o1d803lHa9FVgQ/nT784vg3R+gbi+w//kIb8jc3jNL8HwT6wVzPbABC2gSPrlCkrmqwOp2+wa7WzbNFuVy02w9Wc/V9pKpIB2w/kztrIeD4QJ66ZPr6gDGImqb6oGw45yR9N+aFCilaoOddNAsJhQbZzY+WDmFEP3Tn4Yarga/zAGFkEXB4BrP66miJP4aVcrS9QjRmiMOohBZHZZQ4ZpTD92LtnDQaPwPYn9Ke2AKYWyviYxpfd4z3Wyu0ffjTepC4OC5aNR8vgWyvaYoaDe6XtRtrjfLirDUEVcZ80WuL5xMP5UrA8zTvjcRyB5k/rqHjwib5HPywk8Xbew7EkiN6RxVQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR4EXg182edhvg4KScPX2iz3B2LATAOBgNVHQ8BAf8EBAMCAQYwDQYJKoZIhvcNAQELBQADggIBAECjV8u1mo7T/4h6B9TY1p9RLGSIvH2pnsUB42yEK13JOICl+8rmYB7USny6yaxgmiZlNyIiP8qr/YpZGqPhAdSgi4TdyT21tV2hpbNpW1M9FPeCJtZ5IGhZEcQ/o/DuUaoUi3JAVrjNHe5CtABaKUEu25jvJ7WeyvbfZArEUOseo6jIO2fCjAYaimZdwEeGD2Nx1Z+kYtigtWZ8GU7eIWChV5yQueDyjp2fKP+12ZH4klBOZ37Fqcqf+o0Rw6AiaIS2rELBGGJ1fQztIgY/gDnsQ8F3vA/8hxaYSwSTqBqzdsvlaAv1+67UU7ZLRNWehmeHwtagUsW9Wjewriqz0hCqAEoGFNSTcMs0jhAbNEsQB7GBmouc0Af5P1iF2p48N/AewYChPoJw7amusnxxs3UIB3c6TmrvEs+l2ZNHlUnh8zYCsqVNXEqbeKYPOpV5n58lTv0fhzE3DSXBTUI3ShGHlAxIlAUtNd/TpMfK7jsTJgYUF2ypfgqFIgXnBxqKLXDs6romLKKDnA4Vu7XZJXvLdERa7wkmifH0wugi9ZUSxLUWIe5ZminvX+H+7AvKbqi4+KsdAXy4Q6HnCqzvP12Q75jvtR4976Z+upi7dwh8Y2LOGeKhg4xe+jq20oExaLJCN7WNVr5phUyNWPD7/FSXdYB5cqj3yhAjtSF2JvWu
+								</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=Autoridad de Certificación Raíz - Test 2026,O=RootCA -
+									Test,C=PE</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>RWpROFlYTFJuWXJNUlZ3QUhaY055cWpKSDA4PQ==</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>
+							http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2026-01-01T07:00:00.000Z</tsl:StatusStartingTime>
+					</tsl:ServiceInformation>
+					<tsl:ServiceHistory />
+				</tsl:TSPService>
+			</tsl:TSPServices>
+		</tsl:TrustServiceProvider>
+		<tsl:TrustServiceProvider>
+			<tsl:TSPInformation>
+				<tsl:TSPName>
+					<tsl:Name xml:lang="en">GIRASOL PE S.C.R.L</tsl:Name>
+				</tsl:TSPName>
+				<tsl:TSPTradeName>
+					<tsl:Name xml:lang="en">GIRASOL PE S.C.R.L</tsl:Name>
+				</tsl:TSPTradeName>
+				<tsl:TSPAddress>
+					<tsl:PostalAddresses>
+						<tsl:PostalAddress xml:lang="es">
+							<tsl:StreetAddress>JR TUPAC YUPANQUI NRO 143 </tsl:StreetAddress>
+							<tsl:Locality>AMARILIS</tsl:Locality>
+							<tsl:StateOrProvince> HUANUCO</tsl:StateOrProvince>
+							<tsl:PostalCode>100102</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+						<tsl:PostalAddress xml:lang="en">
+							<tsl:StreetAddress>JR TUPAC YUPANQUI NRO 143 AMARILIS HUANUCO</tsl:StreetAddress>
+							<tsl:Locality>AMARILIS</tsl:Locality>
+							<tsl:StateOrProvince> HUANUCO</tsl:StateOrProvince>
+							<tsl:PostalCode>100102</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+					</tsl:PostalAddresses>
+					<tsl:ElectronicAddress>
+						<tsl:URI>HTTPS://GIRASOL.PE</tsl:URI>
+						<tsl:URI>SOPORTE@GIRASOL.PE</tsl:URI>
+					</tsl:ElectronicAddress>
+				</tsl:TSPAddress>
+				<tsl:TSPInformationURI>
+					<tsl:URI xml:lang="en">HTTPS://GIRASOL.PE</tsl:URI>
+				</tsl:TSPInformationURI>
+			</tsl:TSPInformation>
+			<tsl:TSPServices>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">INTERMEDIATE AC GIRASOL S.C.R.L</tsl:Name>
+							<tsl:Name xml:lang="es">EC INTERMEDIA GIRASOL PE S.C.R.L</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>
+									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</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>STREET=https://girasol.pe, CN=FirmEasy SubCA,
+									OU=RUC-20605042512, O=GIRASOL PE SOCIEDAD COMERCIAL DE RESPONSABILIDAD LIMITADA,
+									L=Amarilis, ST=Huanuco-Huanuco, C=PE</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>d01ubFZmRnlYOVZSejcydkpjUDc5RFBjUExzPQ==</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>
+							http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2025-03-04T21:55:58.000Z</tsl:StatusStartingTime>
+					</tsl:ServiceInformation>
+					<tsl:ServiceHistory />
+				</tsl:TSPService>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">ROOT AC GIRASOL PE S.C.R.L. </tsl:Name>
+							<tsl:Name xml:lang="es">EC RAIZ DE GIRASOL PE S.C.R.L.</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>
+									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</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>STREET=https://girasol.pe, CN=FirmEasy RootCA,
+									OU=RUC-20605042512, O=GIRASOL PE SOCIEDAD COMERCIAL DE RESPONSABILIDAD LIMITADA,
+									L=Amarilis, ST=Huanuco-Huanuco, C=PE</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>MDFHU0Y4b1UvMktJM3pPRVlzQVV2Ny96amtJPQ==</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>
+							http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2025-01-10T17:01:08.000Z</tsl:StatusStartingTime>
+					</tsl:ServiceInformation>
+					<tsl:ServiceHistory />
+				</tsl:TSPService>
+			</tsl:TSPServices>
+		</tsl:TrustServiceProvider>
+	</tsl:TrustServiceProviderList>
+	<ds:Signature Id="id-4332c1a1a80a2c760abf3ff062c61c08">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<ds:Reference Id="ref-enveloped-signature" URI="">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ds:DigestValue>G86utLiorj3Af+92B2CFA6pZb33E9GKZy3XAjpytDhg=</ds:DigestValue>
+			</ds:Reference>
+			<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties"
+				URI="#xades-id-4332c1a1a80a2c760abf3ff062c61c08">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<ds:DigestValue>U33LDs88tUFvh9H2gjub0uYiShzccFFAXEwYxNYsY30=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue Id="value-id-4332c1a1a80a2c760abf3ff062c61c08">
+			Vsh2tnNc7Qb9iKkzaTnKHLOWa0tVAMVCxoQMkRpDcYeLye5w3wPhnFv79+iZZazrCiW2JfHe2smLsyUsfT1pKTxYOGnNGJWtKh/YkUwsUZvdY0uhiWx4v6LntyvtH46jcDRgl+d2fWtscOkPLTTKKMmuIbraiUNnx8EAhaiuq+bzMmBWpGcrtCop1ajR6snsCVvbHzBv7bxCj8R9WN0QBuY6AAStiqvG5w92Mr3Yw9WULu43sSeiSU7TbRfVQvg8qwbEwzwNcYsyv1A/Fu1QdQDrRRrlbwoNRfEWrYbD5Lc+LYL+VTT9VTDVsSVdy3HRErcQ2InJkEreQLJ41LFFKw==</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>
+					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</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+		<ds:Object>
+			<xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#"
+				Target="#id-4332c1a1a80a2c760abf3ff062c61c08">
+				<xades:SignedProperties Id="xades-id-4332c1a1a80a2c760abf3ff062c61c08">
+					<xades:SignedSignatureProperties>
+						<xades:SigningTime>2026-01-11T16:18:40Z</xades:SigningTime>
+						<xades:SigningCertificate>
+							<xades:Cert>
+								<xades:CertDigest>
+									<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+									<ds:DigestValue>
+										ZIlo2XGBodNtLhACRnk9Ynk7MuU/1YGHD8g/OwFDvn6N34X9t3r7nwb/TSmuDxFHMP3mwpC0od8rctdeGfmZOg==</ds:DigestValue>
+								</xades:CertDigest>
+								<xades:IssuerSerial>
+									<ds:X509IssuerName>CN=ECEP-RENIEC CA Class 2 II,O=Registro Nacional de
+										Identificación y Estado Civil,C=PE</ds:X509IssuerName>
+									<ds:X509SerialNumber>269812553132543761750626717469708213654103480782</ds:X509SerialNumber>
+								</xades:IssuerSerial>
+							</xades:Cert>
+						</xades:SigningCertificate>
+					</xades:SignedSignatureProperties>
+					<xades:SignedDataObjectProperties>
+						<xades:DataObjectFormat ObjectReference="#ref-enveloped-signature">
+							<xades:MimeType>text/xml</xades:MimeType>
+						</xades:DataObjectFormat>
+					</xades:SignedDataObjectProperties>
+				</xades:SignedProperties>
+			</xades:QualifyingProperties>
+		</ds:Object>
+	</ds:Signature>
+</tsl:TrustServiceStatusList>
