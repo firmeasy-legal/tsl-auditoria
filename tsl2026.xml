@@ -383,6 +383,93 @@
 				</tsl:TSPService>
 			</tsl:TSPServices>
 		</tsl:TrustServiceProvider>
+		<tsl:TrustServiceProvider>
+			<tsl:TSPInformation>
+				<tsl:TSPName>
+					<tsl:Name xml:lang="en">GIRASOL PE S.C.R.L DEV</tsl:Name>
+				</tsl:TSPName>
+				<tsl:TSPTradeName>
+					<tsl:Name xml:lang="en">GIRASOL PE S.C.R.L DEV</tsl:Name>
+				</tsl:TSPTradeName>
+				<tsl:TSPAddress>
+					<tsl:PostalAddresses>
+						<tsl:PostalAddress xml:lang="es">
+							<tsl:StreetAddress>JR TUPAC YUPANQUI NRO 143 </tsl:StreetAddress>
+							<tsl:Locality>AMARILIS</tsl:Locality>
+							<tsl:StateOrProvince> HUANUCO</tsl:StateOrProvince>
+							<tsl:PostalCode>100102</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+						<tsl:PostalAddress xml:lang="en">
+							<tsl:StreetAddress>JR TUPAC YUPANQUI NRO 143 AMARILIS HUANUCO</tsl:StreetAddress>
+							<tsl:Locality>AMARILIS</tsl:Locality>
+							<tsl:StateOrProvince> HUANUCO</tsl:StateOrProvince>
+							<tsl:PostalCode>100102</tsl:PostalCode>
+							<tsl:CountryName>PE</tsl:CountryName>
+						</tsl:PostalAddress>
+					</tsl:PostalAddresses>
+					<tsl:ElectronicAddress>
+						<tsl:URI>HTTPS://GIRASOL.PE</tsl:URI>
+						<tsl:URI>SOPORTE@GIRASOL.PE</tsl:URI>
+					</tsl:ElectronicAddress>
+				</tsl:TSPAddress>
+				<tsl:TSPInformationURI>
+					<tsl:URI xml:lang="en">HTTPS://GIRASOL.PE</tsl:URI>
+				</tsl:TSPInformationURI>
+			</tsl:TSPInformation>
+			<tsl:TSPServices>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">INTERMEDIATE AC GIRASOL S.C.R.L DEV</tsl:Name>
+							<tsl:Name xml:lang="es">EC INTERMEDIA GIRASOL PE S.C.R.L DEV</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>
+									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</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=DemoSubCA3</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>d01ubFZmRnlYOVZSejcydkpjUDc5RFBjUExzPQ==</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>
+							http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2025-03-04T21:55:58.000Z</tsl:StatusStartingTime>
+					</tsl:ServiceInformation>
+					<tsl:ServiceHistory />
+				</tsl:TSPService>
+				<tsl:TSPService>
+					<tsl:ServiceInformation>
+						<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+						<tsl:ServiceName>
+							<tsl:Name xml:lang="en">ROOT AC GIRASOL PE S.C.R.L. DEV</tsl:Name>
+							<tsl:Name xml:lang="es">EC RAIZ DE GIRASOL PE S.C.R.L. DEV</tsl:Name>
+						</tsl:ServiceName>
+						<tsl:ServiceDigitalIdentity>
+							<tsl:DigitalId>
+								<tsl:X509Certificate>
+									MIIFgzCCAzegAwIBAgIUXqpSOLKGV3MLUzauF+cGVAmXXiQwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgMFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgMFAKIDAgFAMBUxEzARBgNVBAMMCkRlbW9Sb290Q0EwHhcNMjYwNDIwMTA0MTM0WhcNNDEwNDE2MTA0MTMzWjAVMRMwEQYDVQQDDApEZW1vUm9vdENBMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAjc5SOGS4Xk0+PCli8AQOaWd15j8Uz7EsAtbhbBBuK9PXohNNvgN2SFQVmSNjfCUcsqDNul8pgmoiGaj0xpQV3UKmSR3ehZgjbvgUVvKoqVYiCnN8IYS/pAF7hhnEBVh4Yh5Df4exMO6mPZo6WdbGqy8/jkNtfrn2nbB8BlQn7dVg1YN3dmMimIzLjSfuqzP9c9Rw7VpGtHXniSs1/mVH9jJEHYn04xPsJxOojqyKhXMsoxep/oLP+m00Dy6b/zFnnpYUmkshtDRtwr0Jw6IChZtM67WwevrDwHoeuXIzyZsBbM5QwYM0TIYh1h3+/NAJQKiPNQViHWUQBkcrPsnvHmGTq8p+ZuIXjzsXWyfLGMZZS4vQqT9TOcNBiU7T1gDf59oeNXq4a6OP6JcX6MwNub+YY0kp2i36wZ6e6nilNI1ebZebGgwULTu76ey9MRJO4UxB10PopaxILHGwqS8d493/z/MEKKaIY3UpBsfOL1xqOQNl2ExNCHshfyy0oq8NDUz1JX85gw8kM67VwXmuJUa57xbvX0tfiW7nVBzd2KBgV8KQ3vknbr9QjQWpgrLtOheKO4wtWjoWo33iLSAHCbY0nAzr5JY1+d+icDBiDFyYW1KdAR/cyM/Yq2vyxdmJ/1p4N+laMwPUsynSV+ltGxyolnvRlGVBIAqw84Kf6SkCAwEAAaNjMGEwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBSr8Aa1G6HgQRKMoV4tlxtTkudoizAdBgNVHQ4EFgQUq/AGtRuh4EESjKFeLZcbU5LnaIswDgYDVR0PAQH/BAQDAgGGMEEGCSqGSIb3DQEBCjA0oA8wDQYJYIZIAWUDBAIDBQChHDAaBgkqhkiG9w0BAQgwDQYJYIZIAWUDBAIDBQCiAwIBQAOCAgEAX0X2yhs+76yc+y9koeDbz+MsJ9yPVE2LcxFfSb4mjB1aB1CvIY3XMHaunu+DKBVeBZJ9rEWq6N4fg7ceZF8ZDNrTNi5r4dL6RODIeHIs2MNkFqhfyNBqrHaGoG9nbmHEeaTsx9kWPgbC+tQtiEh5G+FgQAP2DmwG+d7mkcklSAtAHcHXeXhFGEbHrleR2zlM7AWtNUv1p+mSWoo9dKHL9Um8d5TpdpTnbWlGM3v9NkKq42aLU4UczGOgItEb8o9HkMPBrEKTYXxXFr33HjExoOf/TOd11jm4Sfi3CJchP6Jck4f96Y3DCjbSTDPxisy9+4e9mxsykaiHV9hzVsn4aBCkhmcgyl1fIrJQjy35bG1kL7SztzL7Rlf/loTD9my0kUGXwOB0oc75UtkRXaY3lhazgMXVWVSKGaRl/wHc81kc5u2sYvr3sk/IMVa6F9XeVE65EclNocA/Q0XBTr6VFGMb+oVEonnuESVTRaM/ELXAqcFjLu/5haXY2X1NGG4FGI5C0wnVUg5Nl4IsyS80YoJtuvaODblMMQOpg6xAaHq1ZgBhz3TRr6X7IfNtBFXbcnj2Daic/aRrtMwZ729iT/uwUuIzxydaBAUXbIJquxAoGREflq1E5UiNVq9K0+71jlTHE0QXBLmN/zXmqGNxu6p78667aWkiQrob6fyOwX8=</tsl:X509Certificate>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SubjectName>CN=DemoRootCA</tsl:X509SubjectName>
+							</tsl:DigitalId>
+							<tsl:DigitalId>
+								<tsl:X509SKI>MDFHU0Y4b1UvMktJM3pPRVlzQVV2Ny96amtJPQ==</tsl:X509SKI>
+							</tsl:DigitalId>
+						</tsl:ServiceDigitalIdentity>
+						<tsl:ServiceStatus>
+							http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/Svcstatus/undersupervision</tsl:ServiceStatus>
+						<tsl:StatusStartingTime>2025-01-10T17:01:08.000Z</tsl:StatusStartingTime>
+					</tsl:ServiceInformation>
+					<tsl:ServiceHistory />
+				</tsl:TSPService>
+			</tsl:TSPServices>
+		</tsl:TrustServiceProvider>
 	</tsl:TrustServiceProviderList>
 	<ds:Signature Id="id-4332c1a1a80a2c760abf3ff062c61c08">
 		<ds:SignedInfo>
