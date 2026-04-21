@@ -2,12 +2,226 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>TSL Auditoría</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TSL Auditoría · INDECOPI</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--bg: #0b1020;
+			--bg-soft: #111831;
+			--surface: rgba(255, 255, 255, 0.04);
+			--surface-hover: rgba(255, 255, 255, 0.08);
+			--border: rgba(255, 255, 255, 0.08);
+			--border-strong: rgba(255, 255, 255, 0.16);
+			--text: #e6e9f5;
+			--text-muted: #8a93b2;
+			--accent: #7c9cff;
+			--accent-soft: rgba(124, 156, 255, 0.12);
+			--success: #5ee6a8;
+			--radius: 14px;
+		}
+
+		* { box-sizing: border-box; }
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			min-height: 100%;
+		}
+
+		body {
+			font-family: 'Inter', system-ui, -apple-system, sans-serif;
+			color: var(--text);
+			background:
+				radial-gradient(1200px 600px at 85% -10%, rgba(124, 156, 255, 0.18), transparent 60%),
+				radial-gradient(900px 500px at -10% 110%, rgba(94, 230, 168, 0.12), transparent 60%),
+				linear-gradient(180deg, var(--bg) 0%, var(--bg-soft) 100%);
+			background-attachment: fixed;
+			line-height: 1.6;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		.container {
+			max-width: 880px;
+			margin: 0 auto;
+			padding: 64px 24px 96px;
+		}
+
+		.badge {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			padding: 6px 12px;
+			font-size: 12px;
+			font-weight: 500;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+			color: var(--accent);
+			background: var(--accent-soft);
+			border: 1px solid var(--border-strong);
+			border-radius: 999px;
+		}
+
+		.badge::before {
+			content: "";
+			width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			background: var(--success);
+			box-shadow: 0 0 0 3px rgba(94, 230, 168, 0.2);
+		}
+
+		h1 {
+			font-size: clamp(32px, 5vw, 44px);
+			font-weight: 700;
+			letter-spacing: -0.02em;
+			margin: 20px 0 12px;
+			background: linear-gradient(180deg, #ffffff 0%, #b8c1e6 100%);
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		.lead {
+			color: var(--text-muted);
+			font-size: 17px;
+			max-width: 620px;
+			margin: 0 0 40px;
+		}
+
+		.section-title {
+			font-size: 13px;
+			font-weight: 600;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--text-muted);
+			margin: 0 0 16px;
+		}
+
+		.files {
+			display: grid;
+			gap: 12px;
+		}
+
+		.file-card {
+			display: flex;
+			align-items: center;
+			gap: 16px;
+			padding: 18px 20px;
+			background: var(--surface);
+			border: 1px solid var(--border);
+			border-radius: var(--radius);
+			text-decoration: none;
+			color: inherit;
+			transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+		}
+
+		.file-card:hover {
+			background: var(--surface-hover);
+			border-color: var(--border-strong);
+			transform: translateY(-1px);
+		}
+
+		.file-icon {
+			flex-shrink: 0;
+			width: 44px;
+			height: 44px;
+			display: grid;
+			place-items: center;
+			border-radius: 10px;
+			background: var(--accent-soft);
+			color: var(--accent);
+		}
+
+		.file-info {
+			flex: 1;
+			min-width: 0;
+		}
+
+		.file-name {
+			font-family: 'JetBrains Mono', ui-monospace, monospace;
+			font-size: 15px;
+			font-weight: 500;
+			color: var(--text);
+		}
+
+		.file-meta {
+			font-size: 13px;
+			color: var(--text-muted);
+			margin-top: 2px;
+		}
+
+		.file-arrow {
+			color: var(--text-muted);
+			transition: transform 0.15s ease, color 0.15s ease;
+		}
+
+		.file-card:hover .file-arrow {
+			color: var(--accent);
+			transform: translateX(3px);
+		}
+
+		footer {
+			margin-top: 56px;
+			padding-top: 24px;
+			border-top: 1px solid var(--border);
+			color: var(--text-muted);
+			font-size: 13px;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 12px;
+		}
+
+		footer a {
+			color: var(--accent);
+			text-decoration: none;
+		}
+
+		footer a:hover { text-decoration: underline; }
+
+		@media (max-width: 520px) {
+			.container { padding: 40px 18px 64px; }
+			.file-card { padding: 16px; }
+		}
+	</style>
 </head>
 <body>
-	<h1>TSL Auditoría</h1>
-	<ul>
-		<li><a href="tsl2026.xml">tsl2026.xml</a></li>
-	</ul>
+	<main class="container">
+		<span class="badge">Lista de Confianza · Perú</span>
+		<h1>TSL Auditoría</h1>
+		<p class="lead">
+			Trust Service Status List publicada por el <strong>INDECOPI</strong>, autoridad acreditadora
+			de la Infraestructura Oficial de Firma Electrónica del Perú.
+		</p>
+
+		<h2 class="section-title">Archivos disponibles</h2>
+		<div class="files">
+			<a class="file-card" href="tsl2026.xml" download>
+				<div class="file-icon" aria-hidden="true">
+					<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+						<polyline points="14 2 14 8 20 8"></polyline>
+						<path d="M9 13l2 2 4-4"></path>
+					</svg>
+				</div>
+				<div class="file-info">
+					<div class="file-name">tsl2026.xml</div>
+					<div class="file-meta">Trust Service Status List · XML firmado</div>
+				</div>
+				<svg class="file-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<line x1="5" y1="12" x2="19" y2="12"></line>
+					<polyline points="12 5 19 12 12 19"></polyline>
+				</svg>
+			</a>
+		</div>
+
+		<footer>
+			<span>INDECOPI · Infraestructura Oficial de Firma Electrónica</span>
+			<a href="tsl2026.xml">Ver XML</a>
+		</footer>
+	</main>
 </body>
 </html>
