@@ -1,0 +1,59 @@
+# ---------- Build (Maven) ----------
+target/
+*.class
+dependency-reduced-pom.xml
+
+# ---------- IDEs ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+out/
+nbproject/private/
+.factorypath
+.apt_generated/
+.checkstyle
+.pmd
+
+# ---------- Logs ----------
+*.log
+logs/
+hs_err_pid*.log
+
+# ---------- Material de firma / credenciales (NUNCA commitear) ----------
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+*.key
+*.p8
+*.pem.key
+id_rsa
+id_rsa.pub
+*.env
+.env
+.env.*
+secrets/
+credentials/
+
+# ---------- Archivos temporales / de trabajo ----------
+*.bak
+*.swp
+*.tmp
+tsl-unsigned-*.xml
+*.xml.bak
+
+# ---------- OS ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
